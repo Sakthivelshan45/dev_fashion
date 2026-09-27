@@ -8,6 +8,7 @@ const servicesList = [
   "Custom Blouse Stitching",
   "Bridal Wear Design",
   "Designer Saree Blouses",
+  "Tailoring & Aari Work Course",
   "Alteration Services",
   "Boutique Fashion Consultation",
   "Occasion Wear Design",
@@ -48,7 +49,7 @@ function BookingFormInner() {
   };
 
   const generateWhatsAppUrl = () => {
-    const whatsappNumber = "919025751328";
+    const whatsappNumber = "918098558923";
     const text = `*Dev Fashion Appointment Inquiry*
 -----------------------------
 *Name:* ${formData.name}
@@ -149,7 +150,7 @@ function BookingFormInner() {
               required
               value={formData.name}
               onChange={handleChange}
-              placeholder="e.g. Priyal Sen"
+              placeholder="e.g. Deepika Shivan"
               className="bg-transparent border-none outline-none text-stone-850 text-sm w-full placeholder:text-stone-300"
             />
           </div>
@@ -168,7 +169,7 @@ function BookingFormInner() {
               required
               value={formData.phone}
               onChange={handleChange}
-              placeholder="e.g. +91 98765 43210"
+              placeholder="e.g. +91 80985 58923"
               className="bg-transparent border-none outline-none text-stone-850 text-sm w-full placeholder:text-stone-300"
             />
           </div>
@@ -189,7 +190,7 @@ function BookingFormInner() {
               required
               value={formData.email}
               onChange={handleChange}
-              placeholder="e.g. priyal@example.com"
+              placeholder="e.g. priya@gmail.com"
               className="bg-transparent border-none outline-none text-stone-850 text-sm w-full placeholder:text-stone-300"
             />
           </div>
@@ -270,7 +271,7 @@ function BookingFormInner() {
           value={formData.notes}
           onChange={handleChange}
           rows={3}
-          placeholder="Describe any necklines, sleeves, embroidery requirements, or specific requests..."
+          placeholder="Describe any necklines, sleeves, embroidery requirements or specific requests..."
           className="w-full bg-stone-50 border border-stone-200 focus:border-gold-500 p-3 outline-none text-sm text-stone-850 placeholder:text-stone-300 resize-none transition-colors"
         />
       </div>

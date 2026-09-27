@@ -100,21 +100,35 @@ const faqs = [
 export default function ServicesPage() {
   return (
     <div className="w-full bg-white pt-24">
-      {/* Header */}
-      <section className="bg-gold-50/50 py-16 sm:py-24 border-b border-gold-100 text-center">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <span className="text-[10px] font-semibold tracking-widest text-gold-600 uppercase block mb-3">
-            ✦ Bespoke Curation
-          </span>
-          <h1 className="font-serif text-3xl sm:text-5xl font-bold tracking-wide text-stone-950 mb-6">
-            Boutique Services & Fitting Guide
-          </h1>
-          <div className="h-[1.5px] w-20 bg-gold-500 mx-auto mb-6" />
-          <p className="text-stone-600 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
-            From custom designer blouses to bridal wear and alterations, discover our premium services tailored with precise craftsmanship.
-          </p>
-        </div>
-      </section>
+    <section
+      className="relative py-16 sm:py-38 border-b border-gold-100 text-center bg-cover bg-center bg-fixed bg-no-repeat"
+      style={{
+        backgroundImage: "url('/images/dev_fashion/lan_bls25.jpg')",
+      }}
+    >
+      {/* Dark/white overlay */}
+      <div className="absolute inset-0 bg-black/65" />
+
+      {/* Content */}
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <span className="text-[10px] font-semibold tracking-widest text-gold-600 uppercase block mb-3">
+          ✦ Bespoke Curation
+        </span>
+
+        <h1 className="font-serif text-3xl sm:text-5xl font-bold tracking-wide text-white mb-6">
+          Boutique Services & Fitting Guide
+        </h1>
+
+        <div className="h-[1.5px] w-20 bg-gold-500 mx-auto mb-6" />
+
+        <p className="text-stone-100 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
+          From custom designer blouses to bridal wear and alterations, discover our
+          premium services tailored with precise craftsmanship.
+        </p>
+
+      </div>
+    </section>
 
       {/* Services Grid */}
       <section className="py-20 sm:py-24">

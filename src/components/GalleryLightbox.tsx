@@ -79,7 +79,647 @@ const galleryItems: GalleryItem[] = [
     category: "Party Wear",
     title: "Contemporary Indo-Western Outfit",
     description: "Chic modern ethnic wear: off-shoulder designer pattern tailored in premium raw silk fabric with soft pleating details."
-  }
+  },
+  {
+    id: 9,
+    src: "/dev_hero.png",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 10,
+    src: "/images/dev_f1.png",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 10,
+    src: "/images/kan.jpg",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 10,
+    src: "/images/dev_fashion/deeps.jpg",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 11,
+    src: "/images/dev_fashion/blouse_back.jpg",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 12,
+    src: "/images/dev_fashion/bride1.jpg",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 13,
+    src: "/images/dev_fashion/couple1.jpg",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 14,
+    src: "/images/dev_fashion/couple2.jpg",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 15,
+    src: "/images/dev_fashion/couple3.jpg",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 16,
+    src: "/images/dev_fashion/couple4.jpg",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 17,
+    src: "/images/dev_fashion/couple5.jpg",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 18,
+    src: "/images/dev_fashion/couple6.jpg",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 19,
+    src: "/images/dev_fashion/couple7.jpg",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 20,
+    src: "/images/dev_fashion/couple9.jpg",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 21,
+    src: "/images/dev_fashion/custom_drs1.jpg",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 22,
+    src: "/images/dev_fashion/family.jpg",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 23,
+    src: "/images/dev_fashion/group.jpg",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 24,
+    src: "/images/dev_fashion/kid_mom1.jpg",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Party Wear",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 25,
+    src: "/images/dev_fashion/kid1.jpg",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 26,
+    src: "/images/dev_fashion/kid2.jpg",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 27,
+    src: "/images/dev_fashion/kid3.jpg",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 28,
+    src: "/images/dev_fashion/old_blouse1.jpg",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 29,
+    src: "/images/dev_fashion/old_blouse2.jpg",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 30,
+    src: "/images/dev_fashion/mehandhi.jpg",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 31,
+    src: "/images/dev_fashion/old_blouse4.jpg",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 31,
+    src: "/images/dev_fashion/old_blouse5.jpg",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 32,
+    src: "/images/dev_fashion/aari1.jpg",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 33,
+    src: "/images/dev_fashion/aari2.jpg",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 34,
+    src: "/images/dev_fashion/aari3.jpg",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 35,
+    src: "/images/dev_fashion/aari4.jpg",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 36,
+    src: "/images/dev_fashion/aari5.jpg",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 37,
+    src: "/images/dev_fashion/aari6.jpg",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 38,
+    src: "/images/dev_fashion/aari7.jpg",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 39,
+    src: "/images/dev_fashion/aari8.jpg",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 40,
+    src: "/images/dev_fashion/featured-aari.webp",
+    alt: "Luxury Custom Tailored Ethnic Outfit",
+    category: "Custom Designs",
+    title: "Luxury Ethnic Editorial",
+    description: "Intricately detailed custom gown featuring bespoke neckline contours, handcrafted embellishments, and smooth pastel lining."
+  },
+  {
+    id: 41,
+    src: "/images/dev_fashion/lan_bls1.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 42,
+    src: "/images/dev_fashion/lan_bls2.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 43,
+    src: "/images/dev_fashion/lan_bls3.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 44,
+    src: "/images/dev_fashion/lan_bls4.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 45,
+    src: "/images/dev_fashion/lan_bls5.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 46,
+    src: "/images/dev_fashion/lan_bls6.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 47,
+    src: "/images/dev_fashion/lan_bls7.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 48,
+    src: "/images/dev_fashion/lan_bls8.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 49,
+    src: "/images/dev_fashion/lan_bls9.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 50,
+    src: "/images/dev_fashion/lan_bls10.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 51,
+    src: "/images/dev_fashion/lan_bls11.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 52,
+    src: "/images/dev_fashion/lan_bls12.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 53,
+    src: "/images/dev_fashion/lan_bls13.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 54,
+    src: "/images/dev_fashion/lan_bls14.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 55,
+    src: "/images/dev_fashion/lan_bls15.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 56,
+    src: "/images/dev_fashion/lan_bls16.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 57,
+    src: "/images/dev_fashion/lan_bls17.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 58,
+    src: "/images/dev_fashion/lan_bls18.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 59,
+    src: "/images/dev_fashion/lan_bls19.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 60,
+    src: "/images/dev_fashion/lan_bls20.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 61,
+    src: "/images/dev_fashion/lan_bls21.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 62,
+    src: "/images/dev_fashion/lan_bls22.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 63,
+    src: "/images/dev_fashion/lan_bls23.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 64,
+    src: "/images/dev_fashion/lan_bls24.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 65,
+    src: "/images/dev_fashion/lan_bls25.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 66,
+    src: "/images/dev_fashion/lan_bls26.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 67,
+    src: "/images/dev_fashion/lan_bls27.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 68,
+    src: "/images/dev_fashion/lan_bls28.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 69,
+    src: "/images/dev_fashion/couple8.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 41,
+    src: "/images/dev_fashion/lan_bls1.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 41,
+    src: "/images/dev_fashion/lan_bls1.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 41,
+    src: "/images/dev_fashion/lan_bls1.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 41,
+    src: "/images/dev_fashion/lan_bls1.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 41,
+    src: "/images/dev_fashion/lan_bls1.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 41,
+    src: "/images/dev_fashion/lan_bls1.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 41,
+    src: "/images/dev_fashion/lan_bls1.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 41,
+    src: "/images/dev_fashion/lan_bls1.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 41,
+    src: "/images/dev_fashion/lan_bls1.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 41,
+    src: "/images/dev_fashion/lan_bls1.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 41,
+    src: "/images/dev_fashion/lan_bls1.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 41,
+    src: "/images/dev_fashion/lan_bls1.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 41,
+    src: "/images/dev_fashion/lan_bls1.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 41,
+    src: "/images/dev_fashion/lan_bls1.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 41,
+    src: "/images/dev_fashion/lan_bls1.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
+  {
+    id: 41,
+    src: "/images/dev_fashion/lan_bls1.jpg",
+    alt: "Bridal Lehanga Embroidery Detail",
+    category: "Bridal Collection",
+    title: "Intricate Bridal Lehanga Panel",
+    description: "Exquisite details of premium heavy zari and stone embroidery panels crafted over weeks by professional karigars."
+  },
 ];
 
 const categories = [

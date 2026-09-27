@@ -32,7 +32,7 @@ export default function FloatingWhatsApp() {
             &times;
           </button>
           {/* Tooltip arrow */}
-          <div className="absolute right-4 bottom-[-6px] w-3 h-3 bg-white border-r border-b border-gold-300 rotate-45" />
+          <div className="absolute right-4 bottom-[-6px] w-3 h-3 bg-white border-r border-b border-green-300 rotate-45" />
         </div>
       )}
 
@@ -41,11 +41,11 @@ export default function FloatingWhatsApp() {
         href={whatsappUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="relative flex items-center justify-center w-14 h-14 bg-stone-900 hover:bg-gold-600 text-white rounded-full shadow-2xl transition-all duration-300 hover:scale-110 group border-2 border-white"
+        className="relative flex items-center justify-center w-14 h-14 bg-stone-900 hover:bg-green-600 text-white rounded-full shadow-2xl transition-all duration-300 hover:scale-110 group border-2 border-white"
         aria-label="WhatsApp Stylist Link"
       >
         {/* Pulsing ring */}
-        <span className="absolute -inset-1 rounded-full bg-gold-500/30 animate-ping opacity-75 group-hover:opacity-0 transition-opacity" />
+        <span className="absolute -inset-1 rounded-full bg-green-500/30 animate-ping opacity-75 group-hover:opacity-0 transition-opacity" />
         
         <svg
           className="w-7 h-7 fill-current"

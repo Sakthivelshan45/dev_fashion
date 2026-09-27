@@ -3,10 +3,11 @@
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { ArrowRight, Star, ShieldCheck, Heart, Award, Sparkles, Scissors, Globe, Lock, Truck, Ruler, CheckCircle } from "lucide-react";
+import { ArrowRight, Star, ShieldCheck, Heart, Award, Sparkles, Scissors, Globe, Lock, Truck, Ruler, CheckCircle, MessageSquare } from "lucide-react";
 import ServiceCard from "@/components/ServiceCard";
 import TestimonialCarousel from "@/components/TestimonialCarousel";
 import GalleryLightbox from "@/components/GalleryLightbox";
+import GalleryLightbox_copy from "@/components/GalleryLightbox_copy";
 import BookingForm from "@/components/BookingForm";
 
 const stats = [
@@ -20,8 +21,8 @@ const featuredServices = [
   { title: "Custom Blouse Stitching", description: "Bespoke designer blouses tailored to perfection with custom necklines, sleeve details, and padding choices.", iconName: "Scissors" },
   { title: "Bridal Wear Design", description: "Elite lehengas and wedding outfits intricately embroidered with premium zardozi and stone craftsmanship.", iconName: "Sparkles" },
   { title: "Designer Saree Blouses", description: "Elegant couture designs matching modern cutouts and traditional handlooms.", iconName: "Heart" },
+  { title: "Tailoring & Aari Work Classes", description: "Learn professional blouse stitching, pattern making, Aari & Maggam work from expert artisans.", iconName: "Award" },
   { title: "Alteration Services", description: "Ensure your favorite garments fit flawlessly with our professional fitting and adjustment services.", iconName: "Ruler" },
-  { title: "Boutique Fashion Consultation", description: "One-on-one styling guidance with fashion designers to curate fabrics, colors, and cuts.", iconName: "Award" },
   { title: "Occasion Wear Design", description: "Elegant outfits tailored for receptions, sangeets, festive socials, and family events.", iconName: "Globe" },
 ];
 
@@ -52,16 +53,17 @@ export default function HomePage() {
             className="flex flex-col space-y-6 sm:space-y-8 text-stone-900"
           >
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 border border-gold-300 bg-gold-100/35 text-[10px] font-semibold tracking-widest text-gold-700 uppercase rounded-full self-start">
-              ✦ Premium Women's Boutique
+              ✦ Premium Women's Boutique in coimbatore
             </div>
-            
+
             <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-wide text-stone-950">
               Crafting Elegance,<br />
               <span className="luxury-text-gradient">Designed for You</span>
             </h1>
-            
-            <p className="text-stone-600 text-sm sm:text-base md:text-lg max-w-xl leading-relaxed">
-              Premium boutique, custom tailoring, and designer bridal wear tailored with passion. From exquisite zardozi blouses to customized dream gowns, we guarantee the perfect fit for every occasion.
+
+            <p className="text-stone-600 text-sm sm:text-base md:text-lg max-w-xl leading-relaxed text-justify">
+              We are delighted to be one of the city's leading Bridel Blouse Designers, providing an extraordinary stiching experience every time. Come and explore our collection - your wardrobe will never look the same!
+              Update your wardrobe with the allure of top Blouses, without compromising your budget!
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-2">
@@ -110,7 +112,7 @@ export default function HomePage() {
           >
             <div className="relative w-full h-full overflow-hidden">
               <Image
-                src="/hero_model.png"
+                src="/dev_hero.png"
                 alt="Dev Fashion Premium Custom Designer Outfit"
                 fill
                 priority
@@ -128,13 +130,13 @@ export default function HomePage() {
       <section className="py-20 sm:py-28 border-t border-gold-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 sm:gap-16 items-center">
-            
+
             {/* About Left Image Panel */}
             <div className="lg:col-span-5 grid grid-cols-2 gap-4">
               <div className="relative aspect-[3/4] border border-gold-200 p-2 bg-white shadow-md mt-6">
                 <div className="relative h-full w-full">
                   <Image
-                    src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80"
+                    src="/images/dev_fashion/featured-aari.webp"
                     alt="Fabric Drafting Studio"
                     fill
                     className="object-cover"
@@ -144,7 +146,7 @@ export default function HomePage() {
               <div className="relative aspect-[3/4] border border-gold-200 p-2 bg-white shadow-md">
                 <div className="relative h-full w-full">
                   <Image
-                    src="https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=600&q=80"
+                    src="/images/dev_fashion/blouse_back.jpg"
                     alt="Bridal Details"
                     fill
                     className="object-cover"
@@ -158,20 +160,80 @@ export default function HomePage() {
               <span className="text-[10px] font-semibold tracking-widest text-gold-600 uppercase block">
                 ✦ Legacy & Craftsmanship
               </span>
-              
-              <h2 className="font-serif text-3xl sm:text-4xl font-bold tracking-wide text-stone-950">
-                Crafting Timeless Couture Since 2012
-              </h2>
-              
-              <div className="h-[1px] w-20 bg-gold-500" />
-              
-              <p className="text-stone-600 text-sm sm:text-base leading-relaxed">
-                Welcome to <strong>Dev Fashion</strong>, where tailoring meets art. With over a decade of experience in fashion design and boutique custom stitching, we specialize in high-end women's wear, bridal couture, designer saree blouses, and premium alterations.
-              </p>
-              
-              <p className="text-stone-600 text-sm sm:text-base leading-relaxed">
-                Every design is fully tailored to our clients' precise measurements. Our skilled karigars and master designers work collaboratively to bring your ideas to life. We serve a premium clientele, including brides across India and international NRI customers who rely on our virtual fitting appointments and reliable worldwide delivery.
-              </p>
+
+              <div className="lg:col-span-7 flex flex-col space-y-6 sm:space-y-8 text-stone-900">
+
+                {/* Heading */}
+                <div>
+                  <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-medium leading-[1.15] tracking-tight text-stone-950">
+                    Crafting Timeless
+                    <span className="block text-gold-600 italic font-normal mt-1">
+                      Couture Since 2017
+                    </span>
+                  </h2>
+
+                  <div className="mt-6 flex items-center gap-3">
+                    <span className="h-px w-16 bg-gold-500" />
+                    <span className="text-gold-500 text-xs">✦</span>
+                    <span className="h-px w-8 bg-gold-300" />
+                  </div>
+                </div>
+
+                {/* Intro */}
+                {/* <p className="text-stone-600 text-sm sm:text-base lg:text-[17px] leading-8">
+                  &nbsp;&nbsp;&nbsp;Welcome to <strong className="text-stone-900 font-semibold">Dev Fashion</strong> —
+                  where South Indian tradition meets modern blouse design. For over a decade, we have been creating
+                  beautifully crafted women's wear with a special focus on
+                  <strong> designer blouses, bridal couture,
+                    custom stitching and premium alterations.</strong>
+                </p> */}
+
+                {/* Quote / Brand Philosophy */}
+                <div className="relative border-l-2 border-gold-400 pl-5 sm:pl-6 py-2">
+                  <p className="font-serif italic text-lg sm:text-xl leading-relaxed text-stone-800">
+                    "Every woman deserves to wear something that feels
+                    uniquely and beautifully hers."
+                  </p>
+                </div>
+
+                {/* Story */}
+                <div className="space-y-4">
+                  <p className="text-stone-600 text-sm sm:text-base leading-8">
+                    <i> &nbsp;&nbsp;&nbsp;With over a decade of experience </i> in custom blouse stitching and bridal fashion, 
+                    Dev Fashion specializes in beautifully crafted South Indian<strong> bridal blouses, 
+                    designer saree blouses, Aari work blouses, embroidery blouses and custom-fit blouse designs. </strong>
+                    Every blouse is created to complement the saree, occasion, personality and individual style of the woman wearing it.
+                  </p>
+
+                  <p className="text-stone-600 text-sm sm:text-base leading-8">
+                    &nbsp;&nbsp;&nbsp;Our expertise includes <strong> bridal blouse stitching, Aari embroidery, Maggam work, hand embroidery, intricate sleeve designs, 
+                    back-neck designs, traditional motifs, contemporary cuts and perfectly fitted custom blouses.</strong>
+                  </p>
+
+                  <p className="text-stone-600 text-sm sm:text-base leading-8">
+                    &nbsp;&nbsp;&nbsp;Based in the heart of <strong className="text-stone-900">Gandhipuram,
+                    Coimbatore</strong>, Dev Fashion has become a trusted destination for
+                    brides and women who appreciate the beauty of
+                    <span className="text-stone-900 font-medium"> tailor-made fashion. </span>
+                    Our work now reaches customers across India and NRI clients worldwide
+                    through virtual consultations, personalized fitting assistance and
+                    reliable delivery.
+                  </p>
+
+                  <p className="text-stone-600 text-sm sm:text-base leading-8">
+                   At Dev Fashion, we believe a blouse is not simply something worn with a saree.
+                    <br />
+                    It is a piece of craftsmanship that completes the saree, celebrates the woman, and becomes part of her story.
+                  </p>
+                </div>
+
+                {/* Signature Statement */}
+                <div className="pt-2">
+                  <p className="text-[11px] uppercase tracking-[0.22em] text-gold-600 font-semibold">
+                    Designed for you. Crafted by hand. Made to be remembered.
+                  </p>
+                </div>
+              </div>
 
               {/* Stats Block */}
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 pt-6 border-t border-gold-200/50">
@@ -190,9 +252,126 @@ export default function HomePage() {
               <div className="pt-2">
                 <Link
                   href="/about"
-                  className="inline-flex items-center gap-1.5 text-xs font-semibold tracking-widest text-stone-900 hover:text-gold-600 uppercase transition-colors underline decoration-gold-400 decoration-2 underline-offset-4"
-                >
+                  className="inline-flex items-center gap-1.5 text-xs font-semibold tracking-widest text-stone-900 hover:text-gold-600 uppercase transition-colors underline decoration-gold-400 decoration-2 underline-offset-4" >
                   Read Our Full Story
+                  <ArrowRight className="w-3.5 h-3.5" />
+                </Link>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* 2.5 Tailoring & Aari Work Course Section */}
+      <section id="courses" className="py-20 sm:py-28 bg-gold-50/30 border-t border-gold-100 scroll-mt-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 sm:gap-16 items-center">
+            
+            {/* Left Image Column */}
+            <div className="lg:col-span-6 relative">
+              <div className="relative aspect-[4/5] sm:aspect-[4/3] lg:aspect-[4/5] border border-gold-300 p-3 bg-white shadow-2xl overflow-hidden group">
+                <div className="relative h-full w-full overflow-hidden">
+                  <Image
+                    src="/images/dev_fashion/tailaring_course1.png"
+                    alt="Dev Fashion Tailoring & Aari Work Classes Studio in Coimbatore"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-700"
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                  />
+                  <div className="absolute inset-0 bg-stone-950/15 group-hover:bg-stone-950/5 transition-colors duration-300" />
+                </div>
+              </div>
+
+              {/* Floating Badge */}
+              <div className="absolute -bottom-6 right-4 sm:right-8 bg-stone-900 text-white p-4 sm:p-6 border border-gold-400 shadow-xl max-w-xs">
+                <span className="text-gold-500 font-serif text-xl sm:text-2xl font-bold block mb-1">
+                  Admissions Open!
+                </span>
+                <p className="text-stone-300 text-xs leading-relaxed">
+                  Hands-on practical training & personalized attention at our Gandhipuram studio.
+                </p>
+              </div>
+            </div>
+
+            {/* Right Content Column */}
+            <div className="lg:col-span-6 flex flex-col space-y-6 sm:space-y-8 text-stone-900 mt-6 lg:mt-0">
+              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 border border-gold-300 bg-gold-100/35 text-[10px] font-semibold tracking-widest text-gold-700 uppercase rounded-full self-start">
+                {/* ✦ Professional Academy */}
+                ✦ Space is limited...sign up to reserve your spot today!
+              </div>
+
+              <div>
+                <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-medium leading-[1.15] tracking-tight text-stone-950">
+                  Dev Fashion
+                  <span className="block text-gold-600 italic font-normal mt-1">
+                    Tailoring & Aari Work Classes
+                  </span>
+                </h2>
+
+                <div className="mt-6 flex items-center gap-3">
+                  <span className="h-px w-16 bg-gold-500" />
+                  <span className="text-gold-500 text-xs">✦</span>
+                  <span className="h-px w-8 bg-gold-300" />
+                </div>
+              </div>
+
+              <p className="text-stone-600 text-sm sm:text-base leading-relaxed">
+                We have officially started our <strong>Professional Tailoring, Fashion Designing & Aari Embroidery Course</strong>! Learn directly from our master designers in Gandhipuram, Coimbatore. Whether you are a beginner wanting to stitch your own blouses or aiming to start your own boutique business, our practical hands-on classes will guide you step by step.
+              </p>
+
+              {/* Course Highlights Grid */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs text-stone-800 pt-2">
+                <div className="flex items-start gap-3 bg-white p-3.5 border border-gold-200/60 shadow-sm">
+                  <Scissors className="w-4 h-4 text-gold-600 shrink-0 mt-0.5" />
+                  <div>
+                    <strong className="block text-stone-950 font-semibold mb-0.5">Blouse Stitching & Pattern Making</strong>
+                    <span className="text-stone-600">Perfect necklines, armhole drafting, padding & lining.</span>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3 bg-white p-3.5 border border-gold-200/60 shadow-sm">
+                  <Sparkles className="w-4 h-4 text-gold-600 shrink-0 mt-0.5" />
+                  <div>
+                    <strong className="block text-stone-950 font-semibold mb-0.5">Aari & Maggam Work Training</strong>
+                    <span className="text-stone-600">Bead work, zardozi, cutwork, thread work & stones.</span>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3 bg-white p-3.5 border border-gold-200/60 shadow-sm">
+                  <Ruler className="w-4 h-4 text-gold-600 shrink-0 mt-0.5" />
+                  <div>
+                    <strong className="block text-stone-950 font-semibold mb-0.5">Custom Fitting & Alteration Skills</strong>
+                    <span className="text-stone-600">Mastering body measurement & flaw-free fits.</span>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3 bg-white p-3.5 border border-gold-200/60 shadow-sm">
+                  <Award className="w-4 h-4 text-gold-600 shrink-0 mt-0.5" />
+                  <div>
+                    <strong className="block text-stone-950 font-semibold mb-0.5">Boutique & Career Guidance</strong>
+                    <span className="text-stone-600">Start your own home boutique or designer label.</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* CTAs */}
+              <div className="flex flex-col sm:flex-row gap-4 pt-4">
+                <a
+                  href="https://wa.me/918098558923?text=Hi%20Dev%20Fashion%2C%20I%20am%20interested%20in%20joining%20your%20Tailoring%20and%20Aari%20Work%20Course.%20Please%20share%20the%20batch%20timings%20and%20fees."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-8 py-4 bg-stone-900 text-white hover:bg-gold-600 text-xs font-semibold tracking-widest uppercase transition-colors text-center shadow-md flex items-center justify-center gap-2.5"
+                >
+                  <MessageSquare className="w-4 h-4" />
+                  Enquire via WhatsApp
+                </a>
+
+                <Link
+                  href="/contact?service=Tailoring%20%26%20Aari%20Work%20Course#booking"
+                  className="px-8 py-4 border border-stone-900 text-stone-900 hover:border-gold-600 hover:text-gold-600 text-xs font-semibold tracking-widest uppercase transition-colors text-center bg-transparent flex items-center justify-center gap-2"
+                >
+                  Book Course Admission
                   <ArrowRight className="w-3.5 h-3.5" />
                 </Link>
               </div>
@@ -257,7 +436,16 @@ export default function HomePage() {
             </p>
           </div>
 
-          <GalleryLightbox />
+          <GalleryLightbox_copy />
+
+          <div className="text-center pt-2">
+            <Link
+              href="/gallery"
+              className="inline-flex items-center gap-1.5 text-xs font-semibold tracking-widest text-stone-900 hover:text-gold-600 uppercase transition-colors underline decoration-gold-400 decoration-2 underline-offset-4">
+              Explore a variety of styles and colors perfect for any event.
+              <ArrowRight className="w-3.5 h-3.5" />
+            </Link>
+          </div>
         </div>
       </section>
 
@@ -265,14 +453,14 @@ export default function HomePage() {
       <section className="py-20 sm:py-28 bg-stone-950 text-white relative overflow-hidden">
         {/* Soft lighting decorations */}
         <div className="absolute top-1/2 left-0 w-80 h-80 bg-gold-900/10 rounded-full blur-3xl pointer-events-none" />
-        
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center max-w-2xl mx-auto mb-20 flex flex-col items-center">
             <span className="text-[10px] font-semibold tracking-widest text-gold-400 uppercase block mb-3">
               ✦ The Dev Fashion Edge
             </span>
             <h2 className="font-serif text-3xl sm:text-4xl font-bold tracking-wide text-white mb-4">
-              Why Choose Our Studio?
+              Why Choose Our Dev Fashion?
             </h2>
             <div className="h-[1px] w-20 bg-gold-500 mb-5" />
             <p className="text-stone-400 text-sm">
@@ -343,17 +531,17 @@ export default function HomePage() {
             {/* Info text column */}
             <div className="lg:col-span-5 flex flex-col space-y-6 sm:space-y-8">
               <span className="text-[10px] font-semibold tracking-widest text-gold-600 uppercase block">
-                ✦ Virtual & In-Studio Booking
+                ✦ Work directly with our Designer
               </span>
-              
+
               <h2 className="font-serif text-3xl sm:text-4xl font-bold tracking-wide text-stone-950">
-                Book a Styling Consultation
+                BOOK A COMPLIMENTARY CONSULTATION
               </h2>
-              
+
               <div className="h-[1px] w-20 bg-gold-500" />
-              
+
               <p className="text-stone-600 text-sm sm:text-base leading-relaxed">
-                Schedule a professional design discussion either in person at our Coimbatore studio or virtually via video call.
+                Experience an exclusive appointment with professional design discussion either in person at our Coimbatore studio or virtually via video call.
               </p>
 
               <div className="space-y-4 text-sm text-stone-700">
@@ -403,7 +591,7 @@ export default function HomePage() {
                 <p className="text-stone-400 text-xs mt-0.5">Confidential measurements, designs, and personal information are protected securely.</p>
               </div>
             </div>
-            
+
             {/* Trust Badges */}
             <div className="flex flex-wrap justify-center gap-4 text-[10px] tracking-widest text-gold-500 font-semibold uppercase">
               <span className="px-3 py-1.5 border border-gold-900/40 bg-stone-950/50">Confidentiality Assured</span>
@@ -418,21 +606,21 @@ export default function HomePage() {
       <section className="py-16 bg-white border-b border-gold-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
-            
+
             <div>
               <h4 className="font-serif text-xl font-bold text-stone-900 mb-3">Visit Our Studio</h4>
               <p className="text-stone-600 text-sm leading-relaxed">
-                12, Premium Fashion Arcade,<br />
-                Designer Street, Coimbatore,<br />
-                Karnataka 560001, India
+                no 37, Tatabed,<br />
+                Gandhipuram, Coimbatore,<br />
+                Tamil nadu 641012, India
               </p>
             </div>
-            
+
             <div>
               <h4 className="font-serif text-xl font-bold text-stone-900 mb-3">Enquiries & Styling</h4>
               <p className="text-stone-600 text-sm leading-relaxed">
                 Email: <a href="mailto:contact@devfashion.com" className="hover:text-gold-600 transition-colors">contact@devfashion.com</a><br />
-                Phone: <a href="tel:+919025751328" className="hover:text-gold-600 transition-colors">+91 98765 43210</a><br />
+                Phone: <a href="tel:+919025751328" className="hover:text-gold-600 transition-colors">+91 80985 58923</a><br />
                 WhatsApp Support: <a href="https://wa.me/919025751328" target="_blank" rel="noopener noreferrer" className="text-gold-600 hover:underline">Chat Online</a>
               </p>
             </div>

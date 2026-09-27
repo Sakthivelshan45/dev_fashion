@@ -10,8 +10,42 @@ export default function ContactPage() {
   return (
     <div className="w-full bg-white pt-24">
       {/* Page Header */}
-      <section className="bg-gold-50/50 py-16 sm:py-24 border-b border-gold-100 text-center">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative py-16 sm:py-38 border-b border-gold-100 text-center bg-cover bg-center bg-fixed bg-no-repeat" 
+      style={{
+        backgroundImage: "url('/images/dev_fashion/lan_bls25.jpg')",
+      }}>
+
+
+     {/* Dark/white overlay */}
+      <div className="absolute inset-0 bg-black/65" />
+
+      {/* Content */}
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <span className="text-[10px] font-semibold tracking-widest text-gold-600 uppercase block mb-3">
+          ✦ Get In Touch
+        </span>
+
+        <h1 className="font-serif text-3xl sm:text-5xl font-bold tracking-wide text-white mb-6">
+          Contact & Consultation
+        </h1>
+        
+        <p className="text-stone-100 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">Comments/questions? We'd love to hear from you!</p>
+
+        <div className="h-[1.5px] w-20 bg-gold-500 mx-auto mb-6" />
+
+        <p className="text-stone-100 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
+        Pop in for a visit at our Coimbatore boutique or jump on a quick video call with us — 
+        our stylists would love to help you find your perfect fit.
+        </p>
+      </div>
+
+
+
+
+
+
+        {/* <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <span className="text-[10px] font-semibold tracking-widest text-gold-600 uppercase block mb-3">
             ✦ Get In Touch
           </span>
@@ -22,7 +56,10 @@ export default function ContactPage() {
           <p className="text-stone-600 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
             Pop in for a visit at our Coimbatore boutique or jump on a quick video call with us — our stylists would love to help you find your perfect fit.
           </p>
-        </div>
+        </div> */}
+
+
+
       </section>
 
       {/* Main Content: Info & Form */}
@@ -33,11 +70,11 @@ export default function ContactPage() {
           <div className="lg:col-span-5 flex flex-col space-y-10">
             <div>
               <h2 className="font-serif text-2xl font-bold text-stone-900 tracking-wide mb-4">
-                Dev Fashion Boutique Studio & Bridal Blouse Designer
+                Dev Fashion Bridel Blouse Designer & Boutique Studio 🪡
               </h2>
               <div className="h-[1px] w-12 bg-gold-500 mb-6" />
               <p className="text-stone-600 text-sm leading-relaxed">
-                Reach out to us for anything you need — whether it's custom stitching, wedding blouse designs, taking your measurements, or getting alterations done, we've got you covered.
+                Reach out to us for anything you need — whether it's custom stitching, wedding blouse designs, taking your measurements or getting alterations done, we've got you covered.
               </p>
             </div>
 
@@ -101,7 +138,7 @@ export default function ContactPage() {
             <div className="bg-gold-50/50 border border-gold-250/65 p-6 relative overflow-hidden">
               <h4 className="font-serif text-lg font-semibold text-stone-900 mb-2">Need Instant Answers?</h4>
               <p className="text-stone-500 text-xs leading-relaxed mb-4">
-                Chat directly with our styling team on WhatsApp for price estimates, fabric suggestions, and quick slot confirmations.
+                Chat directly with our styling team on WhatsApp for price estimates, fabric suggestions and quick slot confirmations.
               </p>
               <a
                 href="https://wa.me/919025751328?text=Hi%20Dev%20Fashion%2C%20I%20have%20a%20tailoring%20enquiry."

@@ -17,32 +17,43 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     id: 1,
-    name: "Priya Sharma",
+    name: "Nisha Balachandra",
     role: "Bridal Customer",
     location: "Coimbatore",
     rating: 5,
-    comment: "The custom wedding blouse stitching was absolute perfection. I requested an intricate zardozi work design, and Dev Fashion delivered a true masterpiece. The fit was flawless on the first try! Absolutely love their work.",
+    comment: "Dev Tailor Durga is incredibly talented and has an amazing eye for bridal blouse designs. She understands exactly what suits you and creates beautiful patterns with perfect stitching. Once you give her your measurements, you never have to worry about the fit, it’s always perfect. She is also very reliable and delivers on time, even when you need it urgently. I’m extremely happy with her work and am already looking forward to getting my next lot of salwars stitched by her. Highly recommended 🎉✌️❤️",
     designType: "Bridal Velvet Blouse"
   },
   {
     id: 2,
-    name: "Neha Kapoor",
+    name: "SNEGHA R",
     role: "NRI Customer",
     location: "London, UK",
     rating: 5,
-    comment: "Living abroad makes it hard to get custom Indian outfits. Their online measurement consultation was incredibly thorough and precise. My designer saree blouses arrived on time and fit like a second skin. Incredible service!",
+    comment: "Absolutely loved the blouse. The fitting is perfect and very comfortable. The embroidery work is neat and beautifully finished. The stitching is excellent and the blouse looks exactly like the pictures which I gave as reference. Very happy. Highly Satisfied.",
     designType: "Designer Saree & Blouse"
   },
   {
     id: 3,
-    name: "Anjali Menon",
+    name: "Dishyantha B",
     role: "Premium Fashion Client",
     location: "Mumbai",
     rating: 5,
-    comment: "Excellent fabric selection, flawless finishing, and highly professional designers. They understand exactly what suits your body type and occasion. I will definitely be getting all my ethnic wear designed here.",
+    comment: "Best customer service and I liked the blouse stitching and ari work.I liked the designs of the blouse.It was same as I mentioned.I thank Dev mam for being much customer friendly and on time delivery actually before one day",
+    designType: "Festive Anarkali Suit"
+  },
+  {
+    id: 4,
+    name: "Rathna Sakthi",
+    role: "New Fashion Client",
+    location: "Coimbatore",
+    rating: 5,
+    comment: "The entire experience was 10/10! Working with Durga Devi was so nice, the design and fit is absolutely stunning! I’ve been wearing it for months and have gotten so many compliments. I love that it’s a woman owned brand and made here in the coimbatore. That doesn’t come often anymore. Can’t wait to get more Blouses!",
     designType: "Festive Anarkali Suit"
   }
 ];
+
+
 
 export default function TestimonialCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0);

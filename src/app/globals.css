@@ -3,6 +3,7 @@
 @theme {
   --font-serif: var(--font-playfair), Georgia, serif;
   --font-sans: var(--font-montserrat), sans-serif;
+  --font-lato: var(--font-lato), 'Lato', sans-serif;
   
   --color-gold-50: #fdfbf7;
   --color-gold-100: #fbf5e6;
